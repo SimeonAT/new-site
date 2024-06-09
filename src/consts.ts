@@ -10,18 +10,18 @@ export const SITE: Site = {
 
 export const HOME: Metadata = {
   TITLE: "Home",
-  DESCRIPTION: "",
+  DESCRIPTION: "My personal website and blog.",
 };
 
 export const BLOG: Metadata = {
   TITLE: "Blog",
-  DESCRIPTION: "",
+  DESCRIPTION: "Blog posts on research projects that I am currently working on.",
 };
 
 export const PROJECTS: Metadata = {
   TITLE: "Projects",
   DESCRIPTION:
-    "",
+    "Projects that I am proud of.",
 };
 
 export const SOCIALS: Socials = [
