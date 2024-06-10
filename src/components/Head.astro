@@ -63,12 +63,9 @@ const { title, description, image = "/new-site/blog-placeholder-1.jpg" } = Astro
 
 <!-- PageFind -->
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
-<script is:inline src="/pagefind/pagefind-ui.js">
-  import { Image, Picture } from "astro:assets";
-  import { Code, Debug } from "astro:components";
-</script>
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
 
-<!-- <ViewTransitions /> -->
+<ViewTransitions />
 
 <script is:inline>
   function init() {
