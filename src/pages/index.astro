@@ -43,8 +43,8 @@ const projects: CollectionEntry<"projects">[] = (
         <ul class="not-prose flex flex-wrap gap-2">
           {
             SOCIALS.map((SOCIAL) => (
-              <li class="gap-x-3 text-nowrap">
-                <FontAwesomeIcon icon={SOCIAL.icon} fixed-width size="1x"/>
+              <li class="flex gap-x-2 text-nowrap">
+                <FontAwesomeIcon icon={SOCIAL.icon} fixed-width size="lg"/>
                 <Link
                   href={SOCIAL.HREF}
                   external
