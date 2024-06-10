@@ -1,5 +1,7 @@
 import type { Metadata, Site, Socials } from "@types";
 
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+
 export const SITE: Site = {
   TITLE: "Simeon Tran",
   DESCRIPTION: "Computer Science Graduate Student",
@@ -28,11 +30,13 @@ export const SOCIALS: Socials = [
   {
     NAME: "GitHub",
     HREF: "https://github.com/simeonat",
+    icon: faGithub,
     end: false,
   },
   {
     NAME: "LinkedIn",
     HREF: "https://www.linkedin.com/in/simeon-tran/",
+    icon: faLinkedin,
     end: true,
   }
 ];

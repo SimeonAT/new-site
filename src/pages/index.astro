@@ -8,7 +8,6 @@ import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import '../fontAwesomeResize';
 
 const blog = (await getCollection("blog"))
@@ -44,8 +43,8 @@ const projects: CollectionEntry<"projects">[] = (
         <ul class="not-prose flex flex-wrap gap-2">
           {
             SOCIALS.map((SOCIAL) => (
-              <li class="flex gap-x-2 text-nowrap">
-                <FontAwesomeIcon icon={faGithub} />
+              <li class="gap-x-3 text-nowrap">
+                <FontAwesomeIcon icon={SOCIAL.icon} fixed-width size="1x"/>
                 <Link
                   href={SOCIAL.HREF}
                   external

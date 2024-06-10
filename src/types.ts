@@ -1,3 +1,5 @@
+import type { IconDefinition } from '@fortawesome/fontawesome-common-types';
+
 export type Site = {
   TITLE: string;
   DESCRIPTION: string;
@@ -15,4 +17,5 @@ export type Socials = {
   NAME: string;
   HREF: string;
   end?: boolean;
+  icon: IconDefinition;
 }[];
