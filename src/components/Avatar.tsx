@@ -8,7 +8,7 @@ import { Avatar } from "flowbite-react";
 export default function ProfilePicture() {
   return (
     <div className="flex flex-wrap gap-2">
-      <Avatar img="../../public/profile-pixel-art-upscaled.png" rounded size="xl" bordered />
+      <Avatar img="/profile-pixel-art-upscaled.png" rounded size="xl" bordered />
     </div>
   );
 }
