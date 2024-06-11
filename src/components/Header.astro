@@ -13,11 +13,15 @@ import { SITE } from "@consts";
         </div>
       </Link>
       <nav class="flex items-center gap-1 text-sm">
-        <Link href="/blog">blog</Link>
+        <!--
+          All you need to display of PDF is to put the PDF in the "/public" directory:
+          https://answers.netlify.com/t/cant-load-pdf-on-static-astro-site/111152/2   
+        -->
+        <Link href="/files/Simeon-Tran-Resume.pdf">CV</Link>
         <span>
           {`/`}
         </span>
-        <Link href="/projects">projects</Link>
+        <Link href="/blog">Blog</Link>
         <span>
           {`/`}
         </span>
