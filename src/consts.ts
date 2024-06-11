@@ -2,6 +2,8 @@ import type { Metadata, Site, Socials } from "@types";
 
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
+export const baseUrl = "https://simeonat.github.io";
+
 export const SITE: Site = {
   TITLE: "Simeon Tran",
   DESCRIPTION: "Computer Science Graduate Student",
