@@ -23,4 +23,8 @@ Furthermore, I found my Python scripts tedious to use over time, especially sinc
 every time I had to update Gitea. It didn't particularly help either that I had to manually go in and fix things
 every time my scripts had an issue (e.g. such as when the scripts can't clone a repository due to Internet connection issues).
 
-As a result, I realized that it was time for me to find a *proper* solution for this problem.
+As a result, I realized that it was time for me to find a *proper* solution for this problem. My research has led me to
+find not only a solution to this Gitea repository backup problem, but also its underlying *root cause*.
+
+## The Problem: I Didn't Properly Migrate my Repositories
+
