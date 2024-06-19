@@ -5,10 +5,12 @@ date: 2024-06-20
 draft: false
 ---
 
+## Introduction
+
 I previously wrote a [blog post]((https://simeonat.github.io/blog/git-python-scripts/)) where I discussed how I wrote
 Python scripts to *automate* the process of backing up my repositories in my self-hosted
-[Gitea](https://github.com/go-gitea/gitea) Docker instance. Although it was cool that I wrote such Python scripts,
-I got feedback that there must a significantly easier way to avoid the annoying `The Git data underlying repository
+[Gitea](https://github.com/go-gitea/gitea) Docker instance. Although people said it was cool that I wrote such Python scripts,
+I got feedback that there must exist a significantly easier way to avoid the annoying `The Git data underlying repository
 cannot be read` error message every time I update my Gitea Docker instance.
 
 <figure>
@@ -20,4 +22,5 @@ Furthermore, I found my Python scripts tedious to use over time, especially sinc
 [four separate Python scripts](https://simeonat.github.io/blog/git-python-scripts/#does-it-work)
 every time I had to update Gitea. It didn't particularly help either that I had to manually go in and fix things
 every time my scripts had an issue (e.g. such as when the scripts can't clone a repository due to Internet connection issues).
-As a result, I realized that it was time for me to find a *proper* solution to fix this problem.
+
+As a result, I realized that it was time for me to find a *proper* solution for this problem.
